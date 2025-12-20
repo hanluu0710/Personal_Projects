@@ -1,0 +1,115 @@
+.main_head{
+    display: block;
+    color:black;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sub_head{
+    display: block;
+    color:black;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.brief{ /*brief intro for each main section*/
+    color: rgb(118, 105, 105);
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: none;
+    margin-top: 0px;
+    /* columns: 2; */
+}
+.scroll-container{
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+}
+
+.scroll-container .wrapper{
+    height: 100%; /*fill container height*/
+    width:auto; /*maintain ratio*/
+    display: flex; /* display images next to each other*/
+    grid-auto-flow: column;
+    scroll-snap-type: x mandatory; /* Snap behavior */
+    gap: 1rem;
+}
+
+.scroll-container .wrapper img {
+     border-radius: 10px;
+     height: 500px;
+}
+
+.intro{
+    column-count: 2;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Optional: Adjust width as needed */
+}
+
+.welcome{
+    display: block;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.main-nav li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+.main-nav{
+    text-align: center;
+
+}
+
+div{
+    display: inline-block;
+}
+
+.pages{
+    display: block;
+    text-align: center;
+    margin-inline: 50px;
+}
+a{
+    display: inline-block;
+    margin-inline: 10px;
+}
+
+
+.des{
+    column-count: 2;
+    margin-left: 0px;
+}
+
+.des .scroll-container{
+    width: 100%;
+    height: 300px;
+    overflow-x: auto;
+    border-radius:10px;
+}
+.des .scroll-container .wrapper img {
+     border-radius: 10px;
+     height: 300px;
+}
+
+
+li{
+    text-shadow: 0.5px 0.5px gray;
+}
+
+body{
+    background-color:antiquewhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
