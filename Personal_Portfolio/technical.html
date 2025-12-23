@@ -24,7 +24,7 @@
     </p>
     <ol>
         <h3 class="position"><li>High-Voltage Team Lead</li></h3>
-        <a href="https://purduesolar.org/">Purdue Solar Racing</a>
+        <i><a href="https://purduesolar.org/">Purdue Solar Racing</a></i>
         <p>
         <a href="https://docs.google.com/document/d/1cYb4md9q-hyUFmg_AbSZ34CkFv4TorL-EeN1tH7qk4o/edit?usp=sharing">
         A documentation</a> of my knowledge from PSR for future reference.            
@@ -45,7 +45,6 @@
                     </video>
                     <img src="image/IMG_1852.jpg">
                     <img src="image/IMG_1854.jpg">
-                    <img src="image/IMG_1853.jpeg">
                 </div>
             </div>      
         </section>
@@ -61,30 +60,96 @@
                 we also increased the total pack voltage by 23% (allowing more torque in the motor).
             </div>
             <div class="no-break">
-                <p>
                 Tool: WaveScuplture Motor Controller and CAN
                 <br>
                 One of my first projects as a lead was to configure the new motor controller. 
                 This is not the most technical project, but it forced me to learn more about the motor,
                 and its power consumption, which eventually explains a lot when it comes to current ratings of our system.
-                </p>
             </div>
         </section>
         
 
-        <h3><li>Mikro MSC Bhd</li></h3>
+        <h3 class="position"><li>R&D Intern</li></h3>
+        <i>Mikro MSC Bhd</i>
         <section class="des">
             <div class="scroll-container">
                 <div class="wrapper">
                     <img src="image/Low-set definite time.jpg" alt="MIKRO">
-                    <img src="image/etap model setting.jpg">
-                    <img src="image/etap param.jpg">
+                    <img src="image/highsat current.jpg">
+                    <img src="image/Trip time display.png">
                 </div>
             </div>
-            R&D Intern
-
+            <div class="scroll-container">
+                <div class="wrapper">
+                    <img src="" alt="Image: Redacted due to NDA">
+                </div>
+            </div>
+            <div class="scroll-container">
+                <div class="wrapper">
+                    <img src="image/ahf-1.jpg" alt="ahf">
+                    <img src="image/ahf-2.jpg" alt="ahf">
+                    <img src="image/cap bank sizing.jpg" alt="ahf">
+                </div>
+            </div>
         </section>
-        <h3><li>Purdue ASME</li></h3>
+        <section class="des">
+            <div class="no-break">
+                Tool/skill: Omron Test Set & Probing
+                <br>
+                I created a standard of operation to test Mikro's combined overcurrent and earth fault relay
+                after engaging with the R&D testing technicians. To learned about the importance of the accuracy in "immediate" tripping time 
+                as well as high current saturation testing to make sure that the relay will effectively isolate before breaking due to extreme overcurrent cases.
+            </div>
+            <div class="no-break">
+                Tool/skill: Altium Designer
+                <br>
+                I created a power supply PCB with a given schematic using Altium.
+                The board was for a voltage relay. Therefore, I had to adhere to all
+                EMC rules regarding high-voltage spacing and how to effectively space things out
+                to save on area.
+            </div>
+            <div class="no-break">
+                Tool/skill: Active Harmonic Filter & Capacitor Bank Sizing
+                <br>
+                I learned about active harmonic filter, how and why it is used in constructions 
+                in place of passive filters. I also learned how to size capacitor bank for 
+                a system as well. However, I did not have enough time to actually implement these
+                into a running porject.
+            </div>
+        </section>
+        <h3 class="position"><li>Electrical Design Lead</li></h3>
+        <section class="project">
+            <i>Purdue ASME</i>
+            <div class="scroll-container">
+                <div class="wrapper">
+                    <img src="image/amse poster.jpg" alt="pocket Oscilloscope">
+                    <video controls muted height="200px" width="500px" >
+                        <source src="image/piezo discharge.mp4" type="video/mp4">
+                    </video>
+                    <video controls muted height="200px" width="500px" >
+                        <source src="image/asme showcase.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p>
+                Project Objectives
+                <ol>
+                    <li>Ultilize Piezo Electrical energy to detect room entry</li>
+                </ol>
+                <br>
+                Project Description:
+                Implementing piezoelectric to create a zero-power sensor that can be activated 
+                by a voltage surge signal every single time a person steps on it.
+                <br><br>
+                Reflection:
+                The project's original scope was to harvest energy generated by this technology to charge
+                phones, batteries,...However, with the effeciency of under 10% and low power (in the miliWatt range) generated due to 
+                low current, most of that power was lost before we could use it. Therefore, the project scope was narrowed to a
+                zero-power sensor which is a lot more doable while still maintaining practicality.
+            </p>
+        </section>
 
         <h3><li>Project 3: Pocket Oscilloscope</li></h3>
         <section class="project">
@@ -92,11 +157,14 @@
                 <div class="wrapper">
                     <img src="image/gPKOumnn.jpg" alt="pocket Oscilloscope">
                     <img src="image/pocket osc footprint.jpg">
+                    <video controls muted height="200px" width="500px" >
+                        <source src="image/Spark Presentation uscope(1).mp4" type="video/mp4">
+                    </video>
                     <img src="image/pocket osc schem.jpg">
                     <img src="image/size compare.jpg">
                     <img src="image/sTy3yhZN.jpg">
                     <img src="image/1FuzgxQQ.jpg">
-
+                    <img src="image/ece 362 pocket poster.jpg">
                 </div>
             </div>
         </section>
@@ -117,13 +185,16 @@
                 Furthermore, it shows waveforms at the frequency of 1kHz 
                 and can take functions with up to 500kbs sample rate, 
                 making it ideal for audio, sensor, and low-frequency digital uses.
+
+                My contributions: coded SPI for displaying ADC input, implemented interrupts for the buttons 
+                and rotary encoders, designed the PCB
                 <br><br>
                 Reflection:
                 in progress...
             </p>
         </section>
-        <h3><li>Project 2: Heart Rate Monitor</li></h3>
-        <h3><li>Project 1: Audio Equalizer</li></h3>
+        <!-- <h3><li>Project 2: Heart Rate Monitor</li></h3>
+        <h3><li>Project 1: Audio Equalizer</li></h3> -->
     </ol>
 </body>
 

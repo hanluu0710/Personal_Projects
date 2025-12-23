@@ -117,6 +117,7 @@ p::selection{
 }
 .no-break{
     break-inside: avoid;
+    font-size: 12px;
 }
 
 
